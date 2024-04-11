@@ -3,6 +3,7 @@ import requests
 
 url = "https://www.amazon.com"
 
+
 def handler(event, context):
     try:
         response = requests.get(url)
